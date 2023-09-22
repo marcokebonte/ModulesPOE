@@ -1,0 +1,16 @@
+﻿<Window x:Class="ModulesPOE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ModulesPOE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFDC9C9C">
+        <TextBox HorizontalAlignment="Left" Height="79" Margin="129,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="549" Text="This is an application that will capture various modules and display all the relevant data" FontSize="20"/>
+        <Button Content="Capture Module" HorizontalAlignment="Left" Margin="52,283,0,0" VerticalAlignment="Top" Width="166" Height="65" Click="Button_Click_1"/>
+        <Button Content="Display Modules" HorizontalAlignment="Left" Margin="535,283,0,0" VerticalAlignment="Top" Width="166" Height="65" Click="Button_Click_2"/>
+        <Button Content="SignOut" HorizontalAlignment="Left" Margin="633,10,0,0" VerticalAlignment="Top" Width="150" Height="40" Click="Button_Click"/>
+        <Label x:Name="DisplayCurrentUserLabel" Content="" HorizontalAlignment="Left" Margin="27,24,0,0" VerticalAlignment="Top" Width="149"/>
+    </Grid>
+</Window>
